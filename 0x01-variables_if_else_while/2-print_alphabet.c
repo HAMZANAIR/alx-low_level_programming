@@ -9,7 +9,8 @@ int main(void)
 {
 char alpha[] = "abcdefghijklmnopqrstuvwxyz";
 size_t length = strlen(alpha);
-for (long unsigned int i = 0; i < length; i++)
+long unsigned int i;
+for (i = 0; i < length; i++)
 {
 putchar(alpha[i]);
 }
