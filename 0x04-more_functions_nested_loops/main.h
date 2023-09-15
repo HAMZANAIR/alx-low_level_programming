@@ -4,4 +4,6 @@
 int _isupper(int c);
 /* Function prototype for _isdigit */
 int _isdigit(int c);
+/* Function prototype for mul */
+int mul(int a, int b);
 #endif /* MAIN_H */
