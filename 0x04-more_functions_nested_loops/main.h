@@ -6,4 +6,8 @@ int _isupper(int c);
 int _isdigit(int c);
 /* Function prototype for mul */
 int mul(int a, int b);
+/* Function prototype for print_numbers */
+void print_numbers(void);
+/* Function prototype for putchar */
+int _putchar(char c);
 #endif /* MAIN_H */
