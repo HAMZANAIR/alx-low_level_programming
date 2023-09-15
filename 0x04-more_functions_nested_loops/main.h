@@ -18,4 +18,6 @@ void more_numbers(void);
 void print_line(int n);
 /* Function prototype for diagonal */
 void print_diagonal(int n);
+/* Function prototype for square */
+void print_square(int size);
 #endif /* MAIN_H */
