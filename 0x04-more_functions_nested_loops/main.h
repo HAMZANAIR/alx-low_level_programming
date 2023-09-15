@@ -10,4 +10,6 @@ int mul(int a, int b);
 void print_numbers(void);
 /* Function prototype for putchar */
 int _putchar(char c);
+/* Function prototype for most numbers */
+void print_most_numbers(void);
 #endif /* MAIN_H */
