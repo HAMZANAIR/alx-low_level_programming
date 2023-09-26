@@ -18,7 +18,7 @@ if (j != 7)
 _putchar(' ');
 
 }
-putchar('\n');
+_putchar('\n');
 }
 }
 
