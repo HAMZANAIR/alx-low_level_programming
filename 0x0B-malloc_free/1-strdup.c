@@ -11,28 +11,23 @@
 */
 char *_strdup(char *str)
 {
-char *dep;
-int length;
-int i;
-length = 0;
-for (i = 0; str[i] != '\0'; i++)
-{
-length++;
-}
-dep = malloc(sizeof(char) * length);
-if (length == 0)
-{
-return (NULL);
-}
-else if (dep == NULL)
-{
-return (NULL);
-}
-for (i = 0; i < length; i++)
-{
-dep[i] = str[i];
-}
-dep[length] = '\0';
-return (dep);
-}
+char *duplicate;
+int length, i;
 
+if (str == NULL)
+return (NULL);
+
+length = 0;
+while (str[length] != '\0')
+length++;
+
+duplicate = malloc((length + 1) * sizeof(char));
+
+if (duplicate == NULL)
+return (NULL);
+
+for (i = 0; i <= length; i++)
+duplicate[i] = str[i];
+
+return (duplicate);
+}
