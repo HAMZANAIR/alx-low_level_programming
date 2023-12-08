@@ -1,0 +1,20 @@
+2023-11-28 17:31:11.068 [info] Extension host agent started.
+2023-11-28 17:31:11.983 [info] [127.0.0.1][02b0a133][ManagementConnection] New connection established.
+2023-11-28 17:31:13.436 [info] [127.0.0.1][fd8b7e4c][ExtensionHostConnection] New connection established.
+2023-11-28 17:31:13.444 [info] [127.0.0.1][fd8b7e4c][ExtensionHostConnection] <560> Launched Extension Host Process.
+2023-11-28 17:31:14.630 [error] CodeExpectedError: Could not find pty on pty host
+    at d._throwIfNoPty (/home/hamza/.vscode-server/bin/6261075646f055b99068d3688932416f2346dd3b/out/vs/platform/terminal/node/ptyHostMain.js:27:7199)
+    at d.attachToProcess (/home/hamza/.vscode-server/bin/6261075646f055b99068d3688932416f2346dd3b/out/vs/platform/terminal/node/ptyHostMain.js:27:2712)
+    at Object.call (/home/hamza/.vscode-server/bin/6261075646f055b99068d3688932416f2346dd3b/out/vs/platform/terminal/node/ptyHostMain.js:17:5858)
+    at s.onPromise (/home/hamza/.vscode-server/bin/6261075646f055b99068d3688932416f2346dd3b/out/vs/platform/terminal/node/ptyHostMain.js:15:5833)
+    at s.onRawMessage (/home/hamza/.vscode-server/bin/6261075646f055b99068d3688932416f2346dd3b/out/vs/platform/terminal/node/ptyHostMain.js:15:5216)
+    at /home/hamza/.vscode-server/bin/6261075646f055b99068d3688932416f2346dd3b/out/vs/platform/terminal/node/ptyHostMain.js:15:4502
+    at r.invoke (/home/hamza/.vscode-server/bin/6261075646f055b99068d3688932416f2346dd3b/out/vs/platform/terminal/node/ptyHostMain.js:11:145)
+    at P.deliver (/home/hamza/.vscode-server/bin/6261075646f055b99068d3688932416f2346dd3b/out/vs/platform/terminal/node/ptyHostMain.js:11:2275)
+    at w.fire (/home/hamza/.vscode-server/bin/6261075646f055b99068d3688932416f2346dd3b/out/vs/platform/terminal/node/ptyHostMain.js:11:1853)
+    at process.M (/home/hamza/.vscode-server/bin/6261075646f055b99068d3688932416f2346dd3b/out/vs/platform/terminal/node/ptyHostMain.js:9:21066)
+    at process.emit (node:events:526:28)
+    at emit (node:internal/child_process:938:14)
+    at processTicksAndRejections (node:internal/process/task_queues:84:21)
+2023-11-28 19:27:01.688 [info] [127.0.0.1][02b0a133][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+2023-11-28 19:27:02.521 [info] [127.0.0.1][fd8b7e4c][ExtensionHostConnection] <560> Extension Host Process exited with code: 0, signal: null.

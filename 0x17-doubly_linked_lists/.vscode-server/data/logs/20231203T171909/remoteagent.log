@@ -1,0 +1,20 @@
+2023-12-03 17:19:10.411 [info] Extension host agent started.
+2023-12-03 17:19:11.011 [info] [127.0.0.1][87a61879][ManagementConnection] New connection established.
+2023-12-03 17:19:12.463 [error] CodeExpectedError: Could not find pty on pty host
+    at d._throwIfNoPty (/home/hamza/.vscode-server/bin/6261075646f055b99068d3688932416f2346dd3b/out/vs/platform/terminal/node/ptyHostMain.js:27:7199)
+    at d.attachToProcess (/home/hamza/.vscode-server/bin/6261075646f055b99068d3688932416f2346dd3b/out/vs/platform/terminal/node/ptyHostMain.js:27:2712)
+    at Object.call (/home/hamza/.vscode-server/bin/6261075646f055b99068d3688932416f2346dd3b/out/vs/platform/terminal/node/ptyHostMain.js:17:5858)
+    at s.onPromise (/home/hamza/.vscode-server/bin/6261075646f055b99068d3688932416f2346dd3b/out/vs/platform/terminal/node/ptyHostMain.js:15:5833)
+    at s.onRawMessage (/home/hamza/.vscode-server/bin/6261075646f055b99068d3688932416f2346dd3b/out/vs/platform/terminal/node/ptyHostMain.js:15:5216)
+    at /home/hamza/.vscode-server/bin/6261075646f055b99068d3688932416f2346dd3b/out/vs/platform/terminal/node/ptyHostMain.js:15:4502
+    at r.invoke (/home/hamza/.vscode-server/bin/6261075646f055b99068d3688932416f2346dd3b/out/vs/platform/terminal/node/ptyHostMain.js:11:145)
+    at P.deliver (/home/hamza/.vscode-server/bin/6261075646f055b99068d3688932416f2346dd3b/out/vs/platform/terminal/node/ptyHostMain.js:11:2275)
+    at w.fire (/home/hamza/.vscode-server/bin/6261075646f055b99068d3688932416f2346dd3b/out/vs/platform/terminal/node/ptyHostMain.js:11:1853)
+    at process.M (/home/hamza/.vscode-server/bin/6261075646f055b99068d3688932416f2346dd3b/out/vs/platform/terminal/node/ptyHostMain.js:9:21066)
+    at process.emit (node:events:526:28)
+    at emit (node:internal/child_process:938:14)
+    at processTicksAndRejections (node:internal/process/task_queues:84:21)
+2023-12-03 17:19:14.049 [info] [127.0.0.1][332532a2][ExtensionHostConnection] New connection established.
+2023-12-03 17:19:14.062 [info] [127.0.0.1][332532a2][ExtensionHostConnection] <803> Launched Extension Host Process.
+2023-12-03 17:37:38.194 [info] [127.0.0.1][87a61879][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+2023-12-03 17:37:38.508 [info] [127.0.0.1][332532a2][ExtensionHostConnection] <803> Extension Host Process exited with code: 0, signal: null.

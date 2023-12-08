@@ -1,0 +1,7 @@
+{
+    "workbench.colorTheme": "Default High Contrast",
+    "liveServer.settings.donotVerifyTags": true,
+    "remote.SSH.remotePlatform": {
+        "raspberrypi.local": "linux"
+    }
+}
